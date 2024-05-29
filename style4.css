@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: hsl(0, 0%, 0%);
+    height: 60px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0 30px;
+    padding: 0;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-item a {
+    display: block;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #555;
+}
+
+.reservation-button {
+    margin-left: auto;
+}
+
+.reservation-button a {
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #c23433;
+    text-decoration: none;
+}
+
+.reservation-button a:hover {
+    background-color: #c23433;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-input, .contact-message {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-input {
+    width: 400px;
+    height: 50px;
+}
+
+.contact-message {
+    width: 800px;
+    height: 200px;
+}
+
+.submit-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 60px;
+    background-color: #c23433;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #c23433;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info div {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+}
+
+.business-hours {
+    padding: 20px;
+}
+
+.business-hours div {
+    margin: 10px 0;
+    font-size: 18px;
+    width: 300px;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-contact {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
